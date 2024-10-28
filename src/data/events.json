@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "name": "Music Fest 2024",
+      "date": "2024-11-15",
+      "location": "New York",
+      "description": "Join us for a thrilling music festival with popular bands!",
+      "image": "/images/fest1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Bomb Conference",
+      "date": "2024-11-20",
+      "location": "San Francisco",
+      "description": "A must-attend event for tech enthusiasts and professionals.",
+      "image": "/images/fest1.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Mummy Fest 2024",
+        "date": "2024-11-15",
+        "location": "New York",
+        "description": "Join us for a thrilling music festival with popular bands!",
+        "image": "/images/fest1.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Tech Conference",
+        "date": "2024-11-20",
+        "location": "San Francisco",
+        "description": "A must-attend event for tech enthusiasts and professionals.",
+        "image": "/images/fest1.jpg"
+      }
+  ]
+  

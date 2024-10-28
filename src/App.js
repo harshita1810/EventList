@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import Sidebar from './components/Sidebar';
+import EventMap from './components/EventMap';
+import EventList from './components/EventList';
+import EventDetails from './components/EventDetails';
 import './App.css';
+import EventListPage from "./pages/EventListPage";
 
 function App() {
+  const [selectedEvent, setSelectedEvent] = useState(null);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Sidebar />
+      <main className="main-content">
+        <EventMap />
+        <EventListPage onSelectEvent={setSelectedEvent} />
+      </main>
     </div>
   );
 }

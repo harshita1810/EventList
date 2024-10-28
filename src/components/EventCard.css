@@ -1,0 +1,36 @@
+
+.event-card {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #c2ecf9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .event-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    margin-right: 20px;
+    object-fit: cover;
+  }
+  
+  .event-card h3 {
+    font-size: 1.2em;
+    margin: 0;
+    color: #333;
+  }
+  
+  .event-card p {
+    margin: 4px 0;
+    color: #555;
+  }
+  
